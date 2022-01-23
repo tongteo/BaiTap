@@ -7,6 +7,7 @@ int maxi(int a, int b){
 	return a>b?a:b;
 }
 int main(){
+	cout<<" hello moi nguoi";
 	int n;cin>>n;
 	int a[n];
 	for(int i=0;i<n;i++){

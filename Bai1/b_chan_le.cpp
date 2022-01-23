@@ -10,7 +10,7 @@ int main(){
     }
     int odd = 0, even = 0;
     for (int i = 0; i < n; i++){
-        if( i % 2 != 0) ++odd;
+        if(a[i]%2!=0) ++odd;
         else ++even;
     }
     cout<<even<<" "<<odd<<endl;
